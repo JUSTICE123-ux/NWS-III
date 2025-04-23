@@ -1,7 +1,7 @@
 function signupBtn(event) {
   event.preventDefault();
 
-  let url = "http://localhost:4000/sign-up";
+  let url = "https://nws-iii.onrender.com/sign-up";
 
   const firstname = document.getElementById("firstName").value;
   const lastname = document.getElementById("lastName").value;
